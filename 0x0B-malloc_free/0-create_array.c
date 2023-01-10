@@ -25,12 +25,13 @@ if (buffer == 0)
 
 else
 {
-	postion = 0;
+	position = 0;
 	while (position < size) /*while for array*/
 {
 	*(buffer + position) = c;
-	postion++;
+	position++;
 }
 
 return (buffer);
+}
 }
