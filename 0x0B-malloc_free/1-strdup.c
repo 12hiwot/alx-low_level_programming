@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 /**
  * _strlen - count array
  * @s: array of elements
@@ -37,7 +38,6 @@ char *_strcpy(char *dest, char *src)
 	dest[i] = '\0';
 
 	return (dest);
-}
 /**
  *_strdup - array for prints a string
  *@str:array of elements
@@ -61,4 +61,5 @@ unsigned int size;
 		_strcpy(dst, str);
 		return (dst);
 	}
+}
 }
