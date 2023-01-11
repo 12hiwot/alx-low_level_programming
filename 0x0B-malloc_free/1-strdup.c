@@ -18,7 +18,7 @@ char *_strdup(char *str)
 	/* check is str is null */
 	if (str == NULL)
 	{
-		return (NUUL);
+		return (NULL);
 	}
 
 	len = 0;
@@ -37,7 +37,7 @@ char *_strdup(char *str)
 
 	for (i = 0; i < len; i++)
 	{
-		ntrs[i] = str[i];
+		nstr[i] = str[i];
 	}
 	nstr[len] = '\0';
 	return (nstr);
